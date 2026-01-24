@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>guestlogin</id>
+	<name>Guest Login</name>
+	<summary>sdgdfdfg</summary>
+	<description>dfggdfgdfdfg</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="contact@dead0duck.ru" homepage="https://dead0duck.ru">DeadDuck</author>
+	<namespace>GuestLogin</namespace>
+	<category>security</category>
+	<bugs>https://dead0duck.ru</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+</info>
