@@ -70,14 +70,16 @@ class GuestController extends Controller {
 		$user = 'user';
 		$password = 'user';
 		$redirect_url = null;
+		$rememberme = true;
 
 		$data = new LoginData(
 			$this->request,
 			$user,
 			$password,
+			$rememberme,
 			$redirect_url,
 			$timezone,
-			$timezone_offset
+			$timezone_offset,
 		);
 		$result = $loginChain->process($data);
 		if (!$result->isSuccess()) {
